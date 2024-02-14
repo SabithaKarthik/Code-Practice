@@ -1,0 +1,9 @@
+inp=list(map(str,input().split()))
+count=int(inp[1])
+inpList=list(inp[0])
+while count>0:
+    n=inpList.pop()
+    inpList.insert(0,n)
+    count=count-1
+print("".join(inpList))
+    
